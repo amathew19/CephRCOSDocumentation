@@ -1,3 +1,6 @@
+# IBM Ceph RCOS Documentation - Fall 2024
+Abel
+
 ## Hurdles that you've run into
 Setting my development environment
 Understanding the code base
@@ -12,7 +15,8 @@ Have a working knowledge of Git methods like fork, branch, checkout, etc.
 
 
 ## Project brainstorming ideas
-
+### Project 3
+### Feature #22442
 
 
 ## How you set up your development environment - my method
@@ -25,6 +29,8 @@ Note: Make sure you uncheck the “Skip Unattended Installation” option (bug �
 
 
 ## Things you've learned about Ceph so far
+Ceph
+ - Ceph is an incredible way to store large amounts of data!
 
 ## Things you've learned about git
 Forking a repository
