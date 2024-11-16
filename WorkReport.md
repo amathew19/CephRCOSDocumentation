@@ -31,22 +31,28 @@ Have a working knowledge of Git methods like fork, branch, checkout, etc.
 
 
 ## Project brainstorming ideas
-### Project 3
-### Feature #22442
+### Project 3 - Exten mgr CLI command output for disabled modules (Team)
+- Hashmap to efficiently track and store pointers to module states and their dependencies
+- Extensive command testing to identify and understand exactly why enabled modules weren't showing up
+- Memoization to cache results, making it way faster by avoiding repeat calculations
+
+### Feature #22442 - ceph daemon mon.id mon_status -> ceph daemon mon.id status (Self)
+ - 
 
 
 ## How you set up your development environment
-Downloaded VirtualBox from https://www.virtualbox.org/ and install
-Download a ubuntu image (.iso) file from https://ubuntu.com/download/desktop 
-Created a virtual machine by following these steps from https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine 
-Note: Make sure you uncheck the “Skip Unattended Installation” option (bug – more details below)
-
-
+ - Downloaded VirtualBox from https://www.virtualbox.org/ and install
+ - Download a Ubuntu image (.iso) file from https://ubuntu.com/download/desktop 
+ - Created a virtual machine by following these steps from https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine (Note: Make sure you uncheck the “Skip Unattended Installation” option (bug – more details below))
+ - Clone the Ceph repo
+ - Ran this command: `./install-deps.sh` (installs all the dependencies)
+ - Next, ran this command: `./do_cmake.sh -DCMAKE_BUILD_TYPE=RelWithDebInfo` (creates a build directory)
+ - Then, `cd build` (changing to the build directory)
+ - Next, `ninja vstart-base cephfs cython_cephfs cython_rbd` 
 
 
 ## Things you've learned about Ceph so far
-Ceph
- - Ceph is an incredible way to store large amounts of data!
+- Ceph is a powerful distributed storage solution for effeicent data storage and retrieval
 
 ## Things you've learned about git
 Forking a repository
@@ -54,9 +60,8 @@ Creating a branch
 
 
 ## Things you've learned about committing to open source projects
-Pair Programming
-
-
+- Pair Programming
+- The importance of creating a fork of the main repository
 
 
 ## Ubuntu Unattended Installation Bug
