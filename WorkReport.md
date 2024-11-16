@@ -37,7 +37,8 @@ Have a working knowledge of Git methods like fork, branch, checkout, etc.
 - Memoization to cache results, making it way faster by avoiding repeat calculations
 
 ### Feature #22442 - ceph daemon mon.id mon_status -> ceph daemon mon.id status (Self)
- - 
+ - Working on standardizing the command structure across the Ceph monitoring system
+ - Support for detailed status output based on specific monitor ID references
 
 
 ## How you set up your development environment
@@ -53,6 +54,8 @@ Have a working knowledge of Git methods like fork, branch, checkout, etc.
 
 ## Things you've learned about Ceph so far
 - Ceph is a powerful distributed storage solution for effeicent data storage and retrieval
+- Ceph organizes data into clusters, which are grouped into logical pools for efficient data management and access
+- Each pool can be configured with different replication policies and performance characteristics to meet specific storage needs
 
 ## Things you've learned about git
 Forking a repository
