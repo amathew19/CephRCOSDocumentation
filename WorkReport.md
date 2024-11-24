@@ -68,10 +68,14 @@
 - Ceph organizes data into clusters, which are grouped into logical pools for efficient data management and access
 - Each pool can be configured with different replication policies and performance characteristics to meet specific storage needs
 
-## Things you've learned about git
-Forking a repository
-Creating a branch
+### Things I've Learned About Git  
+1. **Forking a repository**:  
+   - Learned how to create a personal copy of a repository to work on features independently.  
+   - Understood how forks allow for safe experimentation without affecting the original project.  
 
+2. **Creating a branch**:  
+   - Gained insight into isolating changes by creating branches for specific tasks or features.  
+   - Learned how to switch between branches and merge them into the main repository efficiently.  
 
 ## Things you've learned about committing to open source projects
 - Pair Programming
