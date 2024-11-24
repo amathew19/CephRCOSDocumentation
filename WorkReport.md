@@ -24,10 +24,21 @@
 - Understanding of CI/CD pipelines
 
 
-## Hurdles that you've ultimately overcome
-Setting my development environment
-Setting up a VPN
-Have a working knowledge of Git methods like fork, branch, checkout, etc. 
+### Hurdles That I've Ultimately Overcome  
+1. **Setting up my development environment**:  
+   - Resolved version compatibility issues with essential tools and libraries.  
+   - Configured my IDE and build system for efficient workflow.  
+   - Tested the setup to ensure smooth integration with project repositories.  
+
+2. **Setting up a VPN**:  
+   - Addressed frequent disconnection and authentication errors.  
+   - Configured VPN settings to meet specific project requirements.  
+   - Verified secure access to restricted resources without compromising performance.  
+
+3. **Learning how to utilize forks to develop features**:  
+   - Understood the concept of isolating changes in personal forks for independent development.  
+   - Practiced managing feature branches for better version control.  
+   - Learned how to submit polished pull requests for team review.  
 
 
 ## Project brainstorming ideas
