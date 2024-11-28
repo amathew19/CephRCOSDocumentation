@@ -41,7 +41,10 @@
  ### Learning how to utilize forks to develop features:  
    - Understood the concept of isolating changes in personal forks for independent development.  
    - Practiced managing feature branches for better version control.  
-   - Learned how to submit polished pull requests for team review.  
+   - Learned how to submit polished pull requests for team review.
+
+ ### Learning Git and working with Terminal-based IDE's:  
+   - 
 
 
 ## Project brainstorming ideas
@@ -64,7 +67,9 @@
  - Ran this command: `./install-deps.sh` (installs all the dependencies)
  - Next, ran this command: `./do_cmake.sh -DCMAKE_BUILD_TYPE=RelWithDebInfo` (creates a build directory)
  - Then, `cd build` (changing to the build directory)
- - Next, `ninja vstart-base cephfs cython_cephfs cython_rbd` 
+ - Next, `ninja vstart-base cephfs cython_cephfs cython_rbd`, which compiles and links using the ninja compiler, a CMake wrapper
+ - Then, you run the start script to create a cluster, `RGW=0 MDS=0 ../src/start.sh --debug --new -x --localhost --bluestore --without-dashboard`
+ - Then you can run the `./bin/ceph -s` OR `ceph -s` command to check your cluster's health.
 
 
 ## Things you've learned about Ceph so far
@@ -82,7 +87,9 @@
    - Learned how to switch between branches and merge them into the main repository efficiently.
          
  ### Git Commands:  
-   - 
+   - `git log`:
+   - `git reset --hard`:
+   - `git checkout <branch_name>`:
      
 ## Things you've learned about committing to open source projects
 - Pair Programming
