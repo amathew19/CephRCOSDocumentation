@@ -74,12 +74,15 @@
  - Next, `ninja vstart-base cephfs cython_cephfs cython_rbd`, which compiles and links using the ninja compiler, a CMake wrapper
  - Then, you run the start script to create a cluster, `RGW=0 MDS=0 ../src/start.sh --debug --new -x --localhost --bluestore --without-dashboard`
  - Then you can run the `./bin/ceph -s` OR `ceph -s` command to check your cluster's health.
+ - Finally, you can run `../src/stop.sh` to shut down your cluster.
 
 
 ## Things you've learned about Ceph so far
 - Ceph is a powerful distributed storage solution for effeicent data storage and retrieval
 - Ceph organizes data into clusters, which are grouped into logical pools for efficient data management and access
 - Each pool can be configured with different replication policies and performance characteristics to meet specific storage needs
+- Ceph has a set of core daemons (like monitors, OSDs, and managers) which are configured for various functionalities such as monitoring, logging, and managing the clusters
+- Ceph supports multiple storage interfaces including object storage, block storage, and file storage
 
 ## Things I've Learned About Git  
  ### Forking a repository:  
