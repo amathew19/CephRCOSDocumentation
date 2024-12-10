@@ -24,7 +24,9 @@
 - Understanding of CI/CD pipelines
 
 ### Terminal-based IDEs (vim and nano)
-- Limited experience working with vim and nano
+- Limited experience working with vim and nano, requiring significant time investment to learn the basics!
+- Steep learning curve adapting to vim's modal editing system
+- Difficulty remembering common keyboard shortcuts and commands for text manipulation
 
 
 ## Hurdles That I've Ultimately Overcome  
@@ -44,7 +46,9 @@
    - Learned how to submit polished pull requests for team review.
 
  ### Learning Git and working with Terminal-based IDE's:  
-   - 
+   - Figured out how to handle file editing and navigation in the terminal
+   - Got better at Git commands, especially with branching and fixing merge issues
+   - Got comfortable with basic vim and nano commands needed for daily coding tasks
 
 
 ## Project brainstorming ideas
