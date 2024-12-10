@@ -86,22 +86,22 @@
 
 ## Things I've Learned About Git  
  ### Forking a repository:  
-   - Learned how to create a personal copy of a repository to work on features independently.  
-   - Understood how forks allow for safe experimentation without affecting the original project.  
+   - Learned how to create a personal copy of a repository to work on features independently, enabling collaboration without direct access to the original project
+   - Understood how forks allow for safe experimentation without affecting the original project
+   - Mastered the setup of public/private SSH keys for secure authentication when pushing and pulling code from GitHub repositories
 
  ### Creating a branch:  
-   - Gained insight into isolating changes by creating branches for specific tasks or features.  
-   - Learned how to switch between branches and merge them into the main repository efficiently.
+   - Gained insight into isolating changes by creating branches for specific tasks or features, keeping the main codebase stable  
+   - Learned how to switch between branches and merge them into the main repository efficiently, maintaining a clean project history
          
  ### Git Commands:  
-   - `git log`:
-   - `git reset --hard`:
-   - `git checkout <branch_name>`:
+   - `git log`: lists the commit history, showing author, date, and commit messages for tracking project evolution
+   - `git reset --hard`: resets the head of the branch to the previous commit, discarding all uncommitted changes
+   - `git checkout <branch_name>`:  switches to another branch, allowing you to work on different features in isolation
      
 ## Things you've learned about committing to open source projects
-- Pair Programming
-- The importance of creating a fork of the main repository
-
+- Pair Programming sessions with other team memebers
+- The importance of maintaining code standards when commiting and making changes to the code repository.
 
 ## Ubuntu Unattended Installation Bug
 Stumbled on a bug where I found unattended installation does not add the user to the list of sudo/root users. 
