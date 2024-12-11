@@ -100,8 +100,9 @@
    - `git checkout <branch_name>`:  switches to another branch, allowing you to work on different features in isolation
      
 ## Things you've learned about committing to open source projects
-- Pair Programming sessions with other team memebers
-- The importance of maintaining code standards when commiting and making changes to the code repository.
+- Effective Pair Programming: Pair programming sessions created invaluable opportunities for real-time code review and knowledge sharing. These collaborative sessions helped me catch potential issues early.
+- Coding Standards: Maintaining consistent code standards which was crucial for project longevity and efficient collaboration. It included writing descriptive commit messages that explain both what changed and why, while following established style guides.
+- Iterative Improvement: Starting with smaller, focused pull requests to build trust with maintainers and make the review process more manageable proved to be a smart move.
 
 ## Ubuntu Unattended Installation Bug
 Stumbled on a bug where I found unattended installation does not add the user to the list of sudo/root users. 
