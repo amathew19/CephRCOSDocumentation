@@ -4,6 +4,7 @@
 ### Development Environment Setup
 - Encountered issues setting up the environment on a VirtualBox VM without a VPN, which led to crashes and performance problems.
 - Had to troubleshoot and reinstall configurations multiple times to stabilize the setup.
+- Spent time fine-tuning VM resource allocation with the right balance of memory, CPU cores.
 
 ### Navigating a Large Codebase
 - Had challenges starting with a large codebase, especially since it was my first experience on such a scale
