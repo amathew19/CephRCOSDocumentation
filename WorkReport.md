@@ -105,4 +105,4 @@
 - Iterative Improvement: Starting with smaller, focused pull requests to build trust with maintainers and make the review process more manageable proved to be a smart move.
 
 ## Ubuntu Unattended Installation Bug
-Stumbled on a bug where I found unattended installation does not add the user to the list of sudo/root users. 
+While setting up a new Ubuntu VM, I encountered a frustrating issue with the unattended installation process. After two reinstalls, I discovered that the automated installer wasn't adding the created user to the sudoers list, effectively blocking them from performing any root-level operations. This quirk in the unattended installation meant my user couldn't execute basic admin tasks without manually modifying the sudoers configuration. I've documented this issue since it seems like a common pitfall that could save others from spending hours troubleshooting like I did.
